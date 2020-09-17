@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+html, body {
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+}
+
+/* header */
+.row.heading h2 {
+	font-size: 52.52px;
+	line-height: 95px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 0 40px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.heading.heading-icon {
+	display: block;
+}
+
+/* rreshti liste */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* lg screen padding */
+.padding-lg {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.personeli {
+	background-color: #f5f5f5;
+}
+
+/* pedagog kuti */
+.personeli .cnt-block:hover {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	border: 0;
+}
+
+/* pedagog kuti */
+.personeli .cnt-block {
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding: 30px 20px;
+	text-align: center;
+	border: 2px solid #d5d5d5;
+	margin: 0 0 28px;
+}
+
+/* pedagog kuti foto */
+.personeli .cnt-block img {
+	width: 148px;
+	height: 148px;
+	border-radius: 100%;
+}
+
+/* titulli */
+.personeli .cnt-block h3 {
+	color: #2a2a2a;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 6px 0;
+	text-transform: uppercase;
+}
+
+/* zyra */
+.personeli .cnt-block p {
+	color: #2a2a2a;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 400;
+}

@@ -1,0 +1,134 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+}
+
+/* carousel arrows dark */
+.carousel-control-next, .carousel-control-prev {
+	filter: invert(100%);
+}
+
+/* scrollbar style */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/* Footer style */
+footer {
+	background-color: #333A40;
+	color: #d5d5d5;
+	padding-top: 25px;
+}
+
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+
+hr.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+
+footer a {
+	
+}
+
+/* the carousel indicators cant be changed color row 6500
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: #000000;
+} */
+
+/* widget info at the bottom*/
+.container-widget {
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	transition: box-shadow 0.3s ease-out;
+	border: 2px solid #d5d5d5;
+}
+
+.container-widget:hover {
+	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.5);
+	border: 0;
+}
+
+/* nuk punon border normal dhe hover */
+.img-container {
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	transition: transform 0.3s ease-out;
+	z-index: 2;
+}
+
+.container-widget:hover .img-container {
+	transform: translateY(-135px);
+}
+
+.img-container>img {
+	height: 100%;
+	width: 100%;
+	transition: opacity 0.3s ease-out;
+}
+
+.container-widget:hover>.img-container>img {
+	opacity: 0.5;
+}
+
+.user-info {
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #eee;
+	height: 155px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center
+}
+
+.user-info>h1 {
+	padding: 0;
+	margin: 10px 0;
+}
+
+/* nuk punon qe ti vendos stilizim linkut per sistemin e notave*/
+.carousel .img-fluid img {
+	border: 2px solid #0000ff;
+}

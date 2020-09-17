@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+.container-fluid input {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.container-fluid input[type="submit"] {
+	display: block;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #eccc68;
+	color: #000;
+	font-size: 20px;
+}
+
+.container-fluid input[type="submit"]:hover {
+	border: none;
+	outline: none;
+	height: 35px;
+	background: #d2a51c;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: .3s ease-out;
+}
+
+.box_in {
+	opacity: .85;
+	height: 70%;
+	background: #2f3542;
+	margin: 0;
+	padding: 30px;
+	top: 55%;
+	left: 50%;
+	color: #fff;
+	border-radius: 15px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
